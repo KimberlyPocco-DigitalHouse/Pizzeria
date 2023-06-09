@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400&family=Poppins:ital,wght@1,300&family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto';
+    margin: 0;
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #222222;
+    padding: 15px;
+  }
+  
+  header img {
+    margin-right: 10px;
+  }
+  
+  header .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  header div {
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+  }
+  
+  header span {
+    font-weight: 700;
+    font-size: 24px;
+  }
+  
+  header .pizza {
+    color: #39B24A;
+  }
+  
+  header .front {
+    color: #FC200C;
+  }
+  
+  header nav {
+    display: flex;
+    color: #F3F3F3;
+    margin-right: 50px; 
+  }
+  
+  header nav ul {
+    margin-left: 13px; 
+  }
+
+  
+main{
+    background-color:  #E5E5E5;
+    width: 1024px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.columna{
+    width: 490px;
+    height: 350px;
+    background-image: url('../img/delivery.svg');
+    background-size: cover;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    margin-right: 10px;
+
+}
+
+.columna h2 {
+    padding: 10px;
+    color: #FC200C;
+}
+
+.columna2{
+    width: 490px;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.columna2 h2 {
+    color: #FC200C;
+    height: 100px;
+    width: 490px;
+}
+
+.columna2 .fila{
+    height: 100px;
+    width: 490px;
+}
+
+
+.columna2 .fila2{
+    height: 150px;
+    width: 490px;
+}
